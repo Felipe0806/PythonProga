@@ -1,34 +1,34 @@
-# Hola Mundo con Python y Docker
+# Hello World with Python and Docker
 
-Este es un proyecto simple en Python que muestra un mensaje a través de un contenedor Docker. Está configurado para escuchar en el puerto 8080.
+This is a simple Python project that displays a message through a Docker container. It is configured to listen on port 8080.
 
-## Requisitos previos
+## Prerequisites
 
-- [Docker](https://www.docker.com/) instalado en tu máquina.
+- [Docker](https://www.docker.com/) installed on your machine.
 
-## Pasos para probar el programa
+## Steps to test the program
 
-### 1. Clona el repositorio
-Primero, clona este repositorio en tu máquina local.
+### 1. Clone the repository
+First, clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/Felipe0806/PythonProga.git
 cd PythonProga
 ```
 
-### 2. Construye la imagen Docker
-En el directorio donde se encuentra el archivo Dockerfile, ejecuta el siguiente comando para construir la imagen de Docker:
+### 2. Build the Docker image
+In the directory where the Dockerfile is located, run the following command to build the Docker image:
 
 ```bash
 docker build -t hola-mundo-python .
 ```
 
-### 3. Ejecuta el contenedor de Docker
-Una vez que la imagen esté construida, puedes ejecutar el contenedor en el puerto 8080:
+### 3. Run the Docker container
+Once the image is built, you can run the container on port 8080:
 
 ```bash
 docker run -p 8080:8080 hola-mundo-python
 ```
 
-### 4. Verifica que el programa esté funcionando
-Abre tu navegador web y navega a http://localhost:8080. Deberías ver el mensaje como respuesta.
+### 4. Verify that the program is working
+Open your web browser and navigate to http://localhost:8080. You should see the message as a response.
