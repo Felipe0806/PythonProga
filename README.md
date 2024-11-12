@@ -23,12 +23,12 @@ En el directorio donde se encuentra el archivo Dockerfile, ejecuta el siguiente 
 docker build -t hola-mundo-python .
 ```
 
-###3. Ejecuta el contenedor de Docker
+### 3. Ejecuta el contenedor de Docker
 Una vez que la imagen esté construida, puedes ejecutar el contenedor en el puerto 8080:
 
 ```bash
 docker run -p 8080:8080 hola-mundo-python
 ```
 
-###4. Verifica que el programa esté funcionando
+### 4. Verifica que el programa esté funcionando
 Abre tu navegador web y navega a http://localhost:8080. Deberías ver el mensaje como respuesta.
