@@ -1,6 +1,6 @@
 # Hola Mundo con Python y Docker
 
-Este es un proyecto simple en Python que muestra un mensaje de "Hola Mundo" a través de un contenedor Docker. Está configurado para escuchar en el puerto 8080.
+Este es un proyecto simple en Python que muestra un mensaje a través de un contenedor Docker. Está configurado para escuchar en el puerto 8080.
 
 ## Requisitos previos
 
